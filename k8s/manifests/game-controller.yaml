@@ -4,6 +4,7 @@ metadata:
   labels:
     app: game-controller
   name: game-controller
+  namespace: games
 spec:
   replicas: 1
   selector:
