@@ -1,0 +1,9 @@
+apiVersion: retro.sparkfabrik.com/v1
+kind: Game
+metadata:
+  name: pacman
+spec:
+  name: "Pacman"
+  zipUrl: "https://dosgames.com/files/msppcv12.zip"
+  dir: "."
+  exe: "MSPAC.EXE"
